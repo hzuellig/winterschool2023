@@ -16,7 +16,7 @@ const bufferLength = analyser.frequencyBinCount;
 const dataArray = new Uint8Array(bufferLength);
 
 const gainNode = audioCtx.createGain();
-gainNode.connect(audioCtx.destination);
+//gainNode.connect(audioCtx.destination);
 
 
 class Mic {
